@@ -8,12 +8,25 @@ I dug into Airbnb's NYC 2019 dataset using Python to understand pricing trends a
 
 2. **Visualized Price Distribution** 💵  
    - Created a histogram of listing prices. Most were under $200, but there were wild outliers (some over $1,000!).  
-   - Refined the histogram by binning prices in $40 increments (0-40, 40-80, etc.) to get a clearer picture.  
+   - Refined the histogram by binning prices in $40 increments (0-40, 40-80, etc.) to get a clearer picture.
+  
+     ![](https://github.com/mona-baharlou/Python-NYC-Airbnb-listings/blob/main/nyc1.PNG)
+  
+     
+     ![](https://github.com/mona-baharlou/Python-NYC-Airbnb-listings/blob/main/nyc2.PNG)
+
+
 
 3. **Explored Price vs. Reviews** 🔍  
    - Plotted a scatter plot of prices against the number of reviews.  
    - Noticed most reviews cluster around cheaper listings (<$200), with pricier spots getting fewer reviews overall.  
-   - Zoomed in on listings under $1,100 and shrunk the dot size (`s=5`) to reduce clutter and spot patterns better.  
+   - Zoomed in on listings under $1,100 and shrunk the dot size (`s=5`) to reduce clutter and spot patterns better.
+  
+       ![](https://github.com/mona-baharlou/Python-NYC-Airbnb-listings/blob/main/nyc3.PNG)
+    
+       ![](https://github.com/mona-baharlou/Python-NYC-Airbnb-listings/blob/main/nyc4.PNG)
+
+
 
 **Key Takeaways** 🎯  
 - Budget-friendly listings dominate the NYC Airbnb market.  
